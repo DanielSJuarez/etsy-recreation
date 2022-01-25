@@ -1,0 +1,46 @@
+.head{
+    text-align: center;
+    background-color: rgb(250,235,213);
+    height: 200px;
+    font-family: Graphik Webfont;
+}
+
+.head > h1{
+    font-size: 60px;
+    padding-top: 55px;
+}
+
+.products{
+    height: 135px;
+    width: 200px;
+    position: relative;
+    margin: 10px;
+}
+
+.prodIng{
+    width: 100%; 
+    border-radius: 5%;  
+    box-shadow: 0 1px 6px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.prices{
+  background-color:white;
+  padding: 4px 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 16px;
+  position: absolute;
+  right: 61%;
+  bottom: 1%;
+}
+
+.prices::before{
+    content: '$';
+}
+
+.prodPlace{
+    margin-top: 40px;
+    margin-left: 71px;
+    text-align: center;
+}
+
