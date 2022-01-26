@@ -7,7 +7,6 @@
 
 .head > h1{
     font-size: 60px;
-    padding-top: 55px;
 }
 
 .products{
@@ -42,5 +41,11 @@
     margin-top: 40px;
     margin-left: 71px;
     text-align: center;
+}
+
+.search{
+    width: 933px;
+    height: 45px;
+    margin-top: 10px;
 }
 
