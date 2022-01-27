@@ -47,5 +47,59 @@
     width: 933px;
     height: 45px;
     margin-top: 10px;
+    border: solid 2px black;
 }
+
+.button{
+    border-radius: 50%;
+    padding: 30px 25px 30px 25px;
+    margin: 0px 30px 0px 30px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.main{
+    font-size: 40px;
+    color: rgb(224 108 53);
+}
+
+.main:hover{
+    cursor: pointer;
+}
+
+.submit{
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: solid 2px black;
+    transform: rotate(-45deg);
+}
+
+/* #book{
+    background: url('./images/book.jpg') no-repeat;
+}
+
+#cloth{
+    background: url('./images/cloth.jpg') no-repeat;
+}
+
+#dogs{
+    background: url('./images/dog.jpg') no-repeat;
+}
+
+#cats{
+    background: url('./images/cat.jpg') no-repeat;
+}
+
+#kids{
+    background: url('./images/kid.jpg') no-repeat;
+} */
+
+
 

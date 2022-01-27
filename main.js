@@ -5,6 +5,7 @@ $(document).ready(function () {
     const searchButtons = document.querySelectorAll('.button');
     const submitButton = document.querySelector('.submit');
     const searchBar = document.querySelector('.search');
+    const homePage = document.querySelector('.main');
 
     searchButtons.forEach(button => {
         button.addEventListener('click', (event) => fetchData(event.target.value));
@@ -13,6 +14,10 @@ $(document).ready(function () {
     submitButton.addEventListener('click', () => {
         fetchData(searchBar.value);
         searchBar.value= '';
+    })
+
+    homePage.addEventListener('click', () =>{
+        fetchData('car');
     })
 
 
